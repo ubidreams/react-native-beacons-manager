@@ -1,5 +1,5 @@
-[![npm](https://img.shields.io/npm/l/express.svg)](https://github.com/MacKentoch/react-native-beacons-manager)
-[![npm](https://img.shields.io/npm/v/npm.svg)](https://github.com/MacKentoch/react-native-beacons-manager)
+[![npm](https://img.shields.io/npm/l/react-native-beacons-manager.svg)](https://github.com/MacKentoch/react-native-beacons-manager)
+[![npm](https://img.shields.io/npm/v/react-native-beacons-manager.svg)](https://www.npmjs.com/package/react-native-beacons-manager)
 [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/react-native-beacons-manager/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
 
 # react-native-beacons-manager
@@ -67,7 +67,7 @@ Just don't forget to activate
 - Bluetooth service (*all android version*)
 - Location service (*android < 7: beacon detection won't work on android 6 if location service is off*)
 
-## 4 usage
+## 4. usage
 
 >NOTE: If simple examples below don't help you as much as you wanted, [check detailed documentation depending on use-case + code samples here](https://github.com/MacKentoch/react-native-beacons-manager/tree/master/examples/samples#detailed-documentation--sample-code)
 
@@ -205,11 +205,19 @@ DeviceEventEmitter.addListener('beaconsDidRange', (data) => {
   - [ ] add support to Eddystone
 
 
+## Donate
+
+Do you use & like react-native-beacons-manager but you don’t find a way to show some love?
+If yes, please consider donating to support this project. Otherwise, no worries, regardless of whether there is support or not, I will keep maintaining this project. Still, if you buy me a cup of coffee I would be more than happy though 😄
+
+[![Support via PayPal](./images/paypal/Paypal-button.png)](https://www.paypal.me/ErwanDatin/)
+
+
 ## license
 
 The MIT License (MIT)
 
-Copyright (c) 2017 Erwan DATIN
+Copyright (c) 2018 Erwan DATIN
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
